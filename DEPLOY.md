@@ -1,6 +1,6 @@
-# Инструкция: Статистика с приватными репозиториями через Vercel
+# Инструкция: Статистика с приватными репозиториями
 
-Чтобы карточки в README учитывали **приватные репозитории**, нужен свой экземпляр github-readme-stats на Vercel с твоим токеном.
+Используем **GitHub Readme Stats Action** — карточки генерируются в workflow и учитывают приватные репо через PAT.
 
 ---
 
@@ -9,46 +9,40 @@
 1. GitHub → **Settings** → **Developer settings** → **Personal access tokens**
 2. **Generate new token (classic)**
 3. Имя: `github-readme-stats`
-4. Права: **repo** (полный доступ к репозиториям)
-5. Сгенерируй и **скопируй токен** (один раз — потом его не будет видно)
+4. **Права:** отметь **оба**:
+   - **repo** — для Top Languages и Stats
+   - **read:user** — для Stats (коммиты, PR, issues)
+5. Сгенерируй и **скопируй токен**
 
 ---
 
-## Шаг 2: Форкнуть github-readme-stats
+## Шаг 2: Добавить секрет в репозиторий
 
-1. Перейди на https://github.com/anuraghazra/github-readme-stats
-2. Нажми **Fork** → создастся копия в твоём аккаунте
-
----
-
-## Шаг 3: Задеплоить на Vercel
-
-1. Зайди на https://vercel.com и войди через GitHub
-2. **Add New** → **Project**
-3. **Import** твой форк `github-readme-stats`
-4. **Перед деплоем** открой **Environment Variables**:
-   - **Name:** `PAT_1`
-   - **Value:** вставь свой токен
-   - **Environment:** Production
-5. Нажми **Deploy**
+1. Открой репозиторий **morkkov/morkkov**
+2. **Settings** → **Secrets and variables** → **Actions**
+3. **New repository secret**
+4. **Name:** `GH_TOKEN`
+5. **Value:** вставь свой PAT
 
 ---
 
-## Шаг 4: Обновить README
+## Шаг 3: Запустить workflow
 
-После деплоя Vercel покажет URL, например:
-- `github-readme-stats-xxx.vercel.app`
+1. Вкладка **Actions** → **Update README**
+2. **Run workflow** (кнопка справа)
 
-В `README.md` уже используются URL:
-
-- Top Languages: `https://github-readme-stats-kappa-indol-47.vercel.app/api/top-langs/?username=morkkov&layout=compact&theme=default&hide_border=true&langs_count=8&count_private=true`
-- GitHub Stats: `https://github-readme-stats-kappa-indol-47.vercel.app/api?username=morkkov&show_icons=true&theme=default&hide_border=true&count_private=true`
+Workflow сгенерирует `profile/stats.svg` и `profile/top-langs.svg` и закоммитит их. Карточки в README обновятся автоматически.
 
 ---
 
-## Итоговая проверка
+## Обновление карточек
 
-- [ ] PAT создан и добавлен в Vercel как `PAT_1`
-- [ ] Форк задеплоен на Vercel
-- [ ] URL заменены в README
-- [ ] `count_private=true` добавлен в URL карточек
+- **Вручную:** Actions → Update README → Run workflow
+- **По расписанию:** каждый день в 12:00 UTC
+
+---
+
+## Важно
+
+- PAT с правами **repo** + **read:user** даёт доступ к приватным репо
+- Не храни токен в коде — только в секретах репозитория
