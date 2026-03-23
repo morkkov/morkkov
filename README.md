@@ -15,9 +15,9 @@
 
 ## 📈 Общая статистика GitHub
 
-<p align="center">
+<!-- <p align="center">
   <img src="./profile/stats.svg" alt="GitHub Stats" />
-</p>
+</p> -->
 
 ---
 
