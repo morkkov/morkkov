@@ -11,13 +11,13 @@
 - **Базы данных:** PostgreSQL, SQLite
 - **Инструменты:** Git, Docker, Selenium
 
----
+<!-- ---
 
 ## 📈 Общая статистика GitHub
 
 <p align="center">
   <img src="https://github-readme-stats-kappa-indol-47.vercel.app/api?username=morkkov&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub Stats" />
-</p>
+</p> -->
 
 ---
 
