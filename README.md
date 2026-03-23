@@ -15,16 +15,16 @@
 
 ## 📈 Общая статистика GitHub
 
-<!-- <p align="center">
-  <img src="./profile/stats.svg" alt="GitHub Stats" />
-</p> -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/morkkov/morkkov/main/profile/stats.svg" alt="GitHub Stats" />
+</p>
 
 ---
 
 ## 📊 Языки программирования
 
 <p align="center">
-  <img src="./profile/top-langs.svg" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/morkkov/morkkov/main/profile/top-langs.svg" alt="Top Languages" />
 </p>
 
 ---
