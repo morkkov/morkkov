@@ -16,7 +16,7 @@
 ## 📈 Общая статистика GitHub
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/morkkov/morkkov/main/profile/stats.svg" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=morkkov&show_icons=true&theme=default&hide_border=true" alt="GitHub Stats" />
 </p>
 
 ---
@@ -24,7 +24,7 @@
 ## 📊 Языки программирования
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/morkkov/morkkov/main/profile/top-langs.svg" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=morkkov&layout=compact&theme=default&hide_border=true&langs_count=8" alt="Top Languages" />
 </p>
 
 ---
