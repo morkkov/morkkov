@@ -4,12 +4,22 @@
 
 ---
 
-## 🛠 Стек технологий
+🛠 **Стек технологий**
 
-- **Backend:** Python, FastAPI, asyncio, Celery, SQLAlchemy
-- **Frontend:** React, TypeScript, HTML/CSS
-- **Базы данных:** PostgreSQL, SQLite
-- **Инструменты:** Git, Docker, Selenium
+**Backend:**  
+Python, FastAPI, Django, asyncio, Celery, REST & GraphQL API
+
+**Frontend:**  
+React, Next.js, TypeScript, Tailwind CSS, HTML/CSS
+
+**Базы данных:**  
+PostgreSQL, SQLite, Redis
+
+**Инструменты:**  
+Git, Docker, Docker Compose, GitHub Actions, Selenium, Playwright, Postman
+
+**Облачные сервисы:**  
+Vercel
 
 <!-- ---
 
