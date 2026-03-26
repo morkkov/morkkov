@@ -1,4 +1,4 @@
-# Hi there 👋 Я — Fullstack разработчик
+# Hi there 👋
 
 I build Telegram bots, automate workflows, and create useful tools.  
 I mainly work with Python, can build clean user interfaces, and enjoy understanding complex systems and optimizing processes.  
