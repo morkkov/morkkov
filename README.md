@@ -1,25 +1,60 @@
-# Привет! 👋 Я — Fullstack разработчик
+# Hi there 👋 Я — Fullstack разработчик
 
-Разрабатываю веб-приложения от backend до frontend. Работаю с Python, JavaScript/TypeScript, React и современным стеком технологий.
+I build Telegram bots, automate workflows, and create useful tools.  
+I mainly work with Python, can build clean user interfaces, and enjoy understanding complex systems and optimizing processes.  
+Currently diving deeper into Machine Learning and data analysis 🤖
 
 ---
 
-🛠 **Стек технологий**
+🛠 **Tech Stack**
 
-**Backend:**  
-Python, FastAPI, Django, asyncio, Celery, REST & GraphQL API
+### 🤖 Automation & Bots
 
-**Frontend:**  
-React, Next.js, TypeScript, Tailwind CSS, HTML/CSS
+Python, aiogram  
+Async programming (asyncio), Celery  
+Scraping, integrations, automation
 
-**Базы данных:**  
+### ⚙️ Backend & API
+
+FastAPI, Django  
+REST & GraphQL APIs
+
+### 🎨 Frontend
+
+React, Next.js, TypeScript  
+Tailwind CSS, HTML/CSS
+
+### 🗄 Databases
+
 PostgreSQL, SQLite, Redis
 
-**Инструменты:**  
-Git, Docker, Docker Compose, GitHub Actions, Selenium, Playwright, Postman
+### 🧰 Tools
 
-**Облачные сервисы:**  
+Git, Docker, Docker Compose  
+GitHub Actions  
+Selenium, Playwright  
+Postman
+
+### ☁️ Cloud
+
 Vercel
+
+## 🤖 Machine Learning
+
+- NumPy, Pandas
+- scikit-learn
+- Data processing and analysis
+- Basics of neural networks
+- Experimenting with ML models and integrating them into projects
+
+---
+
+## 🚀 Focus Areas
+
+- 🤖 Telegram bots & automation
+- ⚡ Building useful tools and services
+- 🔄 API integrations & scraping
+- 🧠 Machine learning & data analysis
 
 <!-- ---
 
